@@ -1,0 +1,11 @@
+Cython
+librosa
+matplotlib
+numba
+numpy
+Pillow
+pyopenjtalk
+scikit-learn
+scipy
+six
+SoundFile

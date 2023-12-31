@@ -1,0 +1,55 @@
+2023-12-20 19:04:55.639 [info] 
+
+
+
+
+2023-12-20 19:04:55.640 [info] Installing extensions...
+2023-12-20 19:04:55.640 [info] Extension host agent started.
+2023-12-20 19:04:55.660 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-12-20 19:04:55.667 [info] [127.0.0.1][1055ae4b][ManagementConnection] New connection established.
+2023-12-20 19:04:55.671 [debug] ComputeTargetPlatform: linux-x64
+2023-12-20 19:04:55.682 [info] Log level changed to info
+2023-12-20 19:04:55.725 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-12-20 19:04:55.771 [info] Installing extensions...
+2023-12-20 19:04:55.895 [info] [127.0.0.1][8c02772b][ExtensionHostConnection] New connection established.
+2023-12-20 19:04:56.127 [info] [127.0.0.1][8c02772b][ExtensionHostConnection] <255> Launched Extension Host Process.
+2023-12-20 19:04:57.303 [info] Installing extension 'ms-ceintl.vscode-language-pack-ja'...
+2023-12-20 19:04:57.304 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:57.415 [info] Installing extension: ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:57.508 [info] Installing extension 'github.copilot-chat'...
+2023-12-20 19:04:57.508 [info] Getting Manifest... github.copilot-chat
+2023-12-20 19:04:57.519 [info] Installing extension 'ms-ceintl.vscode-language-pack-ja'...
+2023-12-20 19:04:57.519 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:57.525 [info] Installing extension 'github.copilot'...
+2023-12-20 19:04:57.526 [info] Getting Manifest... github.copilot
+2023-12-20 19:04:57.640 [info] Installing extension: github.copilot-chat
+2023-12-20 19:04:57.665 [info] Extensions is already requested to install ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:57.667 [info] Installing extension: github.copilot
+2023-12-20 19:04:58.080 [warning] Extension signature verification failed with error 'ENOENT': ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:58.423 [info] Getting Manifest... github.copilot-chat
+2023-12-20 19:04:58.638 [info] Waiting for already requested installing extension github.copilot-chat github.copilot
+2023-12-20 19:04:58.744 [info] Getting Manifest... github.copilot
+2023-12-20 19:04:58.896 [warning] Extension signature verification failed with error 'ENOENT': github.copilot
+2023-12-20 19:04:59.200 [warning] Extension signature verification failed with error 'ENOENT': github.copilot-chat
+2023-12-20 19:04:59.416 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2023121309: ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:59.432 [info] Renamed to /root/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.85.2023121309
+2023-12-20 19:04:59.449 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:59.480 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:59.481 [error] Unknown error while installing extension ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:59.618 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
+2023-12-20 19:04:59.619 [info] Extension 'ms-ceintl.vscode-language-pack-ja' v1.85.2023121309 was successfully installed.
+2023-12-20 19:05:01.734 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-1.143.0: github.copilot
+2023-12-20 19:05:01.796 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-chat-0.11.1: github.copilot-chat
+2023-12-20 19:05:01.806 [info] Renamed to /root/.vscode-server/extensions/github.copilot-1.143.0
+2023-12-20 19:05:01.816 [info] Renamed to /root/.vscode-server/extensions/github.copilot-chat-0.11.1
+2023-12-20 19:05:01.823 [info] Extracting extension completed. github.copilot
+2023-12-20 19:05:01.831 [info] Extracting extension completed. github.copilot-chat
+2023-12-20 19:05:01.875 [info] Extension installed successfully: github.copilot-chat
+2023-12-20 19:05:01.876 [info] Finished waiting for already requested installing extension github.copilot-chat github.copilot
+2023-12-20 19:05:01.876 [info] Extension 'github.copilot-chat' v0.11.1 was successfully installed.
+2023-12-20 19:05:01.876 [info] Extension installed successfully: github.copilot
+2023-12-20 19:05:01.878 [info] Extension 'github.copilot' v1.143.0 was successfully installed.
+2023-12-20 19:05:01.878 [error] Error: Failed Installing Extensions: ms-ceintl.vscode-language-pack-ja
+    at c.installExtensions (/root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:131:109)
+2023-12-20 19:06:03.143 [info] [127.0.0.1][1055ae4b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-20 19:06:03.197 [info] [127.0.0.1][8c02772b][ExtensionHostConnection] <255> Extension Host Process exited with code: 0, signal: null.

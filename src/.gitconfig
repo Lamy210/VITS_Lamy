@@ -1,0 +1,12 @@
+[user]
+	email = syoytaku@gmail.com
+	name = Lamy210
+[gui]
+	recentrepo = D:/Mother
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node /tmp/vscode-remote-containers-9e52f851-9b6f-4565-b980-b48a8b65b079.js git-credential-helper $*; }; f"
