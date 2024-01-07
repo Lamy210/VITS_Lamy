@@ -1,0 +1,21 @@
+version: '3'
+services:
+  python3:
+    restart: always
+    build: .
+    container_name: 'VITS_Lamy_Python3'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ./src:/root/src
+  test:
+    image: nvidia/cuda
+    command: nvidia-smi
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
