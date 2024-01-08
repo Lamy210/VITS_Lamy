@@ -1,0 +1,16 @@
+{
+	"name": "Lamy_VITS_python_pytorch",
+	"remoteUser": "root",
+	"image": "pytorch/pytorch:2.1.0-cuda11.8-cudnn8-devel",
+	"runArgs": [
+	  "--gpus",
+	  "all",
+	  "--shm-size",
+	  "8gb"
+	],
+	"postCreateCommand": [
+	  "/bin/sh",
+	  "-c",
+	  "apt-get update &&apt-get install libasound2-dev&&pip install pyopenjtalk --no-binary pyopenjtalk&&pip install Cython librosa matplotlib numba numpy Pillow scikit-learn scipy six SoundFile torch torchvision torchaudio"
+	]
+  }

@@ -40,7 +40,7 @@ output_dir = "./output/vits/train/"
 #使用するデバイス
 device = "cuda:0"
 #バッチサイズ
-batch_size = 16
+batch_size =8
 #イテレーション数
 total_iterations = 2000000
 #学習率
